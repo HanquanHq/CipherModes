@@ -1,0 +1,1 @@
+Conduct both theoretical and experimental analysis of the five modes of operation for block ciphers defined by NIST. The five modes are electronic code book (ECB), cipher block chaining (CBC), cipher feedback (CFB), output feedback (OFB) and counter (CTR).
