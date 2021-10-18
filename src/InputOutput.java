@@ -1,8 +1,5 @@
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class InputOutput {
@@ -31,7 +28,7 @@ public class InputOutput {
         double estimatedTimeSec = (double) estimatedTime / 1_000_000_000;
         double estimatedTimeMsec = (double) estimatedTime / 1_000_000;
         //System.out.println("[ms]: "+ estimatedTimeMsec);
-        System.out.println("[s]: "+ estimatedTimeSec);
+        System.out.println("[cost time(sec)]: "+ estimatedTimeSec);
         return encryptedMessage;
     }
 
@@ -48,7 +45,7 @@ public class InputOutput {
         double estimatedTimeMsec = (double) estimatedTime / 1_000_000;
 
         //System.out.println("[ms]: "+ estimatedTimeMsec);
-        System.out.println("[s]: "+ estimatedTimeSec);
+        System.out.println("[cost time(sec)]: "+ estimatedTimeSec);
     }
 
     public static String getFull(String name) {
