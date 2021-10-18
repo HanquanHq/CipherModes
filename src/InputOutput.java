@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class InputOutput {
     private static final String key = "aesEncryptionKey";
     private static final String initVector = "encryptionIntVec";
-    private static final String pathToFile = "C:\\workspace\\CipherMods\\data\\";
+    private static final String pathToFile = "C:\\workspace\\CipherModes\\data\\";
 
     public static String readFile(String fileName) throws FileNotFoundException {
         var path = pathToFile + fileName + ".txt";

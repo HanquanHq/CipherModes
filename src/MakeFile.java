@@ -10,7 +10,7 @@ public class MakeFile {
     }
 
     public static void GenerateFile(Integer size, String output, String whatWrite) throws FileNotFoundException {
-        PrintWriter printer = new PrintWriter("C:\\workspace\\CipherMods\\data\\" + output + ".txt");
+        PrintWriter printer = new PrintWriter("C:\\workspace\\CipherModes\\data\\" + output + ".txt");
         for (int i = 0; i < size; i++) {
             printer.print(whatWrite);
         }
